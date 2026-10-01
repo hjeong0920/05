@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void)
 {
     int num1, num2;
@@ -13,7 +12,6 @@ int main(void)
         case '+':
             printf("%d + %d = %d\n", num1, num2, num1 + num2);
             break;
-
         case '-':
             printf("%d - %d = %d\n", num1, num2, num1 - num2);
             break;
@@ -29,6 +27,5 @@ int main(void)
         default:
             printf("Invalid operator\n");
     }
-
     return 0;
 }
