@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int main(void) {
-    int n;
+int main(void)
+{
+    int num;
 
-    printf("input an integer : ");
-    scanf("%i", &n);
+    printf("input an integer: ");
+    scanf("%d", &num);
 
-    if (n > 0) {
-        printf("positive\n");
-    } else if (n < 0) {
-        printf("negative\n");
-    } else {
-        printf("zero\n");
+    if (num < 0)
+    {
+        num = -num;
     }
+
+    printf("Absoulte value : %d\n", num);
 
     return 0;
 }
